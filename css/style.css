@@ -66,6 +66,10 @@ img {
 	width: 100%;
 }
 
+img2 {
+	width: 60%;
+}
+
 a:focus, a:hover {
 	text-decoration: none;
 	outline: none;
