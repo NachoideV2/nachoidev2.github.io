@@ -535,7 +535,7 @@ a:focus, a:hover {
 /*-- Tabs --*/
 
 .wthreetabsaits {
-	background-image: url(../images/tabs-bg.jpg);
+	background-image:linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(../images/elden-ring-malenia-hd-wallpaper-uhdpaper.com-787@1@f.jpg);
 	background-repeat: no-repeat;
 	background-position: center;
 	background-size: cover;
@@ -549,7 +549,7 @@ a:focus, a:hover {
 .wthreetabsaits h3 {
 	font-size: 40px;
 	margin-bottom: 50px;
-	color: #FFF;
+	color: rgba(84, 127, 221, 1);
 }
 
 .tabs {
@@ -711,7 +711,7 @@ a:focus, a:hover {
 
 .wthreetabsaits .item h3 {
 	font-size: 22px;
-	color: #F44336;
+	color: rgba(84, 127, 221, 1);
 	margin: 20px 0;
 }
 
