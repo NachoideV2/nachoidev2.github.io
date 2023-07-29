@@ -2,6 +2,7 @@
 <html>
 <head>
   <title>Curriculum Vitae</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
   <style>
     body {
       background-image: linear-gradient(rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.9)), url('https://s3.envato.com/files/dce18b3a-9d8e-414e-892e-471334e96665/inline_image_preview.jpg');
@@ -11,6 +12,15 @@
       font-family: "Courier New", monospace;
       text-shadow: 0 0 5px #C8C8C8;
       padding: 20px;
+    }
+    .page {
+      width: 21cm;
+      height: 29.7cm;
+      margin: 0 auto;
+      padding: 20px;
+      box-shadow: 0 0 10px rgba(0, 255, 0, 0.5);
+      overflow: hidden;
+      background-color: #000;
     }
     .section {
       margin-bottom: 20px;
@@ -66,82 +76,87 @@
       background-color: #00ff00;
       transition: width 2s;
     }
+    .icon {
+      margin-right: 5px;
+    }
   </style>
 </head>
 <body>
-  <div class="command-line" id="terminal">
-    <span style="color: rgb(0, 255, 255);">$ </span><span style="color: yellow;">sudo run cv.sh</span>
-  </div>
+  <div class="page">
+    <div class="command-line" id="terminal">
+      <span style="color: rgb(0, 255, 255);"><i class="fas fa-dollar-sign icon"></i></span><span style="color: yellow;">sudo run cv.sh</span><br>
+    </div>
 
-  <div class="section">
-    </p><div class="section-header name" id="name">CURRICULUM VITAE</div><p>
-    <div class="section-content info" id="cv-info">
-      <p><span class="name">Name:</span> Ignacio Peralta</p>
-      <p><span class="name">Profession:</span> Software Programmer</p>
-      <p><span class="name">Email:</span> contact@nachoidev2.com, peraltaignacio64@gmail.com</p>
-      <!--<p><span class="name">Phone:</span> 1130613117</p>-->
-      <p><span class="about-me">ABOUT ME</span></p>
-      <p>I'm a software developer from Argentina. I program a lot of things like Video Games, Mobile Apps, Bots, Websites, Tools for development and other tangible goods.</p>
-      <div class="skills-languages-frameworks-apis">
-        <div class="skills-languages-frameworks">
-          <span class="skills-languages-frameworks-header">SKILLS</span>
-          <ul class="skills-languages-frameworks-list">
-            <li class="skills-languages-frameworks-item">Multiplayer</li>
-            <li class="skills-languages-frameworks-item">Optimization</li>
-            <li class="skills-languages-frameworks-item">Cynamatics</li>
-            <li class="skills-languages-frameworks-item">Tools For Develop</li>
-          </ul>
+    <div class="section">
+      <div class="section-header name" id="name">CURRICULUM VITAE</div>
+      <div class="section-content info" id="cv-info">
+        <p><span class="name">Name:</span> Ignacio Peralta</p>
+        <p><span class="name">Profession:</span> Software Programmer</p>
+        <p><span class="name">Email:</span> contact@nachoidev2.com, peraltaignacio64@gmail.com</p>
+        <!--<p><span class="name">Phone:</span> 1130613117</p>-->
+        <p><span class="about-me">ABOUT ME</span></p>
+        <p>I'm a software developer from Argentina. I program a lot of things like Video Games, Mobile Apps, Bots, Websites, Tools for development and other tangible goods.</p>
+        <div class="skills-languages-frameworks-apis">
+          <div class="skills-languages-frameworks">
+            <span class="skills-languages-frameworks-header">SKILLS</span>
+            <ul class="skills-languages-frameworks-list">
+              <li class="skills-languages-frameworks-item">Multiplayer</li>
+              <li class="skills-languages-frameworks-item">Optimization</li>
+              <li class="skills-languages-frameworks-item">Cynamatics</li>
+              <li class="skills-languages-frameworks-item">Tools For Develop</li>
+            </ul>
+          </div>
+          <div class="skills-languages-frameworks">
+            <span class="skills-languages-frameworks-header">LANGUAGES</span>
+            <ul class="skills-languages-frameworks-list">
+              <li class="skills-languages-frameworks-item">C</li>
+              <li class="skills-languages-frameworks-item">C++</li>
+              <li class="skills-languages-frameworks-item">C#</li>
+              <li class="skills-languages-frameworks-item">Python</li>
+              <li class="skills-languages-frameworks-item">Javascript</li>
+            </ul>
+          </div>
+          <div class="skills-languages-frameworks">
+            <span class="skills-languages-frameworks-header">FRAMEWORKS</span>
+            <ul class="skills-languages-frameworks-list">
+              <li class="skills-languages-frameworks-item">Unreal Engine</li>
+              <li class="skills-languages-frameworks-item">Godot Engine</li>
+              <li class="skills-languages-frameworks-item">Qt framework</li>
+              <li class="skills-languages-frameworks-item">Android Studio</li>
+              <li class="skills-languages-frameworks-item">FiveM</li>
+            </ul>
+          </div>
+          <div class="apis">
+            <span class="apis-header">APIS</span>
+            <ul class="skills-languages-frameworks-list">
+              <li class="apis-item">Steam</li>
+              <li class="apis-item">Discord</li>
+              <li class="apis-item">Epic Games</li>
+              <li class="apis-item">Google Play</li>
+              <li class="apis-item">Xsolla</li>
+              <!--<li class="apis-item">MocapForAll</li>-->
+            </ul>
+          </div>
+          <div class="apis">
+            <span class="apis-header">PLATFORMS</span>
+            <ul class="skills-languages-frameworks-list">
+              <li class="apis-item">Windows</li>
+              <li class="apis-item">Xbox</li>
+              <li class="apis-item">Linux</li>
+              <li class="apis-item">Android</li>
+              <li class="apis-item">Ios</li>
+              <!--<li class="apis-item">MocapForAll</li>-->
+            </ul>
+          </div>
         </div>
-        <div class="skills-languages-frameworks">
-          <span class="skills-languages-frameworks-header">LANGUAGES</span>
-          <ul class="skills-languages-frameworks-list">
-            <li class="skills-languages-frameworks-item">C</li>
-            <li class="skills-languages-frameworks-item">C++</li>
-            <li class="skills-languages-frameworks-item">C#</li>
-            <li class="skills-languages-frameworks-item">Python</li>
-            <li class="skills-languages-frameworks-item">Javascript</li>
-          </ul>
-        </div>
-        <div class="skills-languages-frameworks">
-          <span class="skills-languages-frameworks-header">FRAMEWORKS</span>
-          <ul class="skills-languages-frameworks-list">
-            <li class="skills-languages-frameworks-item">Unreal Engine</li>
-            <li class="skills-languages-frameworks-item">Godot Engine</li>
-            <li class="skills-languages-frameworks-item">Qt framework</li>
-            <li class="skills-languages-frameworks-item">Android Studio</li>
-            <li class="skills-languages-frameworks-item">FiveM</li>
-          </ul>
-        </div>
-        <div class="apis">
-          <span class="apis-header">APIS</span>
-          <ul class="skills-languages-frameworks-list">
-            <li class="apis-item">Steam</li>
-            <li class="apis-item">Discord</li>
-            <li class="apis-item">Epic Games</li>
-            <li class="apis-item">Google Play</li>
-            <li class="apis-item">Xsolla</li>
-            <!--<li class="apis-item">MocapForAll</li>-->
-          </ul>
-        </div>
-        <div class="apis">
-          <span class="apis-header">PLATFORMS</span>
-          <ul class="skills-languages-frameworks-list">
-            <li class="apis-item">Windows</li>
-            <li class="apis-item">Xbox</li>
-            <li class="apis-item">Linux</li>
-            <li class="apis-item">Android</li>
-            <li class="apis-item">Ios</li>
-            <!--<li class="apis-item">MocapForAll</li>-->
-          </ul>
-        </div>
+        <p><span class="skills-languages-frameworks-header">SOME OF MY PROJECTS</span></p>
+        <p>- Between us (Frantic action shooter Cyberpunk game in first and third person)</p>
+        <p>- Bullet Time Launcher (Launcher and store for Games of Bullet TIme)</p>
+        <p>- Unreal Boost Compile (Tool For Unreal engine to improve the speed fo shader and lighting compilation)</p>
+        <p>- Flag Pit (Multiplayer Deathmatch Melee game)</p>
+        <p>- Vulcano (NFT Multiplayer game made with Unreal Engine 5)</p>
+        <p>to see all my works : <a href="https://nachoidev2.com/">https://nachoidev2.com/</a></p>
       </div>
-      <p><span class="skills-languages-frameworks-header">SOME OF MY PROJECTS</span></p>
-      <p>- Between us (Frantic action shooter Cyberpunk game in first and third person)</p>
-      <p>- Bullet Time Launcher (Launcher and store for Games of Bullet TIme)</p>
-      <p>- Unreal Boost Compile (Tool For Unreal engine to improve the speed fo shader and lighting compilation)</p>
-      <p>- Flag Pit (Multiplayer Deathmatch Melee game)</p>
-      <p>- Vulcano (NFT Multiplayer game made with Unreal Engine 5)</p>
-      <p>to see all my works : <a href="https://nachoidev2.com/">https://nachoidev2.com/</a></p>
     </div>
   </div>
 </body>
