@@ -13,7 +13,7 @@ body {
 	padding: 0;
 	margin: 0;
 	background: #FFF;
-	font-family: 'Roboto', sans-serif;
+	font-family: 'Open Sans', sans-serif;
 }
 
 body a {
@@ -45,7 +45,7 @@ h1, h2, h3, h4, h5, h6 {
 	margin: 0;
 	padding: 0;
 	text-align: center;
-	font-family: 'Montserrat', sans-serif;
+	font-family: 'Open Sans', sans-serif;
 	color: rgb(255, 255, 255)
 }
 
@@ -125,7 +125,7 @@ a:focus, a:hover {
 
 	.navbar-inverse .navbar-brand {
 		color: rgba(84, 127, 221, 1);
-		font-family: 'Press Start 2P', cursive;
+		font-family: 'Open Sans', sans-serif;
 		font-size: 40px;
 		line-height: 45px;
 	}
@@ -151,7 +151,7 @@ a:focus, a:hover {
 	}
 
 	.agilehover-effect li a {
-		font-family: 'Montserrat', sans-serif;
+		font-family: 'Open Sans', sans-serif;
 		font-size: 15px;
 		position: relative;
 		display: inline-block;
@@ -319,13 +319,13 @@ a:focus, a:hover {
 	}
 
 	.heading h1 {
-		font-family: 'Press Start 2P', cursive;
+		font-family: 'Open Sans', sans-serif;
 		font-size: 50px;
 		color: rgba(84, 127, 221, 1);
 	}
 
 	.heading h2 {
-		font-family: 'Roboto', sans-serif;
+		font-family: 'Open Sans', sans-serif;
 		font-size: 50px;
 		font-weight: 100;
 		color: #EEE;
@@ -333,7 +333,7 @@ a:focus, a:hover {
 	}
 
 	.heading h3 {
-		font-family: 'Roboto', sans-serif;
+		font-family: 'Open Sans', sans-serif;
 		font-size: 40px;
 		font-weight: 100;
 		color: #EEE;
@@ -716,7 +716,7 @@ a:focus, a:hover {
 }
 
 .wthreetabsaits .item h4 {
-	font-family: 'Roboto', sans-serif;
+	font-family: 'Open Sans', sans-serif;
 	font-size: 17px;
 	font-weight: 100;
 	color: #CCC;
